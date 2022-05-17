@@ -1,0 +1,126 @@
+body {
+  margin: auto;
+  overflow: hidden;
+  color: white;
+}
+
+header {
+  padding: 0 6px;
+  display: flex;
+  position: fixed;
+  height: 54px;
+  width: 100%;
+  background: linear-gradient(to right, #4950b1, #f0a7da);
+  z-index: 2;
+}
+
+h1 {
+  padding: 2px 10px 2px 54px;
+  height: fit-content;
+  background: linear-gradient(to right, #e9c5df00, 38%, #e9c5dfd4);
+  /* color: #4950b1; */
+  align-self: center;
+}
+
+#links {
+  margin: 0 44px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 3;
+  align-items: center;
+  justify-content: end;
+}
+
+#links h3 {
+  margin: 4px;
+  padding: 2px;
+  border-bottom: white solid 4px;
+}
+
+.hero-background {
+  position: relative;
+  right: 13%;
+  height: 300px;
+  width: 127%;
+  background: linear-gradient(to right, #f0a7da,#4950b1);
+}
+
+#hero {
+  display: flex;
+  position: relative;
+  bottom: 300px;
+  height: 300px;
+  justify-content: center;
+}
+
+.hero-img {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#hero img {
+  object-fit: cover;
+  opacity: 72%;
+}
+
+img#hero-1 {
+  object-position: 0 14%;
+  min-width: 82%;
+  order: 3;
+}
+
+#hero-2 {
+  width: 276px;
+  object-position: -72px 38px;
+  order: 2;
+}
+
+#hero-3 {
+  width: 172px;
+  order: 5;
+}
+
+#hero-4 {
+  order: 1;
+}
+
+#hero-5 {
+  width: 240px;
+  object-position: -44px 14px;
+  order: 4;
+}
+
+#hero h2 {
+  padding: 10px 44px 10px 10px;
+  background: linear-gradient(to right, #4950b1ba, 88%, #4950b100);
+  /* color: #f0a7da; */
+  position: absolute;
+  right: 8%;
+  align-self: flex-end;
+  z-index: 1;
+}
+
+main {
+  margin: -270px auto;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(to right, #f0a7da, #4950b1); */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  color: black;
+}
+
+footer {
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: min-content;
+  background: linear-gradient(to right, #f0a7da,#4950b1);
+}
